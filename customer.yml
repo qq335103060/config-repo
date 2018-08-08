@@ -1,3 +1,4 @@
+# 通过用配置
 spring:
   application:
     name: eureka-client
