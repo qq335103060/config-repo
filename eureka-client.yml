@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: eureka-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/book?useUnicode=true&amp;amp;characterEncoding=UTF-8&amp;amp;useOldAliasMetadataBehavior=true
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+server:
+  port: 8080
+env:
+  test
